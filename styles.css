@@ -30,8 +30,9 @@ body {
   content: url("./docs/assets/illustration-sign-up-mobile.svg");
 } */
 
-h4 {
+h2 {
   font-weight: 400;
+  font-size: 16px;
 }
 
 h1 {
@@ -39,14 +40,15 @@ h1 {
 }
 
 h1,
-h4,
-h5 {
+h2,
+.bold-p {
   color: var(--dark-slate-grey);
 }
 
-h5 {
+.bold-p {
   margin-bottom: 0.5rem;
   display: inline-block;
+  font-weight: bold;
 }
 
 ul li {
