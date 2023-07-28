@@ -11,7 +11,6 @@ let checkEmail = () => {
   if (!email.match(emailPattern)) {
     messageBox.style.display = "block";
     let setStyle = emailContainer.style;
-    setStyle.color = "hsl(4, 100%, 67%)";
     setStyle.backgroundColor = "hsla(231, 7%, 60%, 0.15)";
   } else {
     let userEmail = document.getElementById("user-email");

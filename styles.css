@@ -26,9 +26,9 @@ body {
   padding-bottom: 2rem;
 }
 
-.pic {
+/* .pic {
   content: url("./docs/assets/illustration-sign-up-mobile.svg");
-}
+} */
 
 h4 {
   font-weight: 400;
@@ -180,7 +180,7 @@ button:hover {
   }
 
   .pic {
-    content: url("./docs/assets/illustration-sign-up-desktop.svg");
+    /* content: url("./docs/assets/illustration-sign-up-desktop.svg"); */
     order: 2;
   }
 
