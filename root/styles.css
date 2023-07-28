@@ -27,7 +27,7 @@ body {
 }
 
 .pic {
-  content: url("../assets/images/illustration-sign-up-mobile.svg");
+  content: url("/assets/images/illustration-sign-up-mobile.svg");
 }
 
 h4 {
@@ -107,7 +107,6 @@ button:hover {
     rgba(146, 148, 160, 1) 0%,
     rgba(255, 98, 87, 1) 51%
   );
-  /* background-color: linear-gradient(to right, #9294a0 15%, #ee6a8f 50%, #ff6257); */
 }
 
 @keyframes change-background {
@@ -155,25 +154,6 @@ button:hover {
 }
 
 @media screen and (min-width: 900px) {
-  /*   .card {
-    max-width: 900px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "form pic";
-    column-gap: 2rem;
-    border-radius: 2rem;
-    padding: 1rem;
-  }
-
-  .form {
-    grid-area: form;
-    
-  }
-
-  .pic {
-    grid-area: pic;
-    content: url("../assets/images/illustration-sign-up-desktop.svg");
-  } */
 
   body {
     height: 100vh;
