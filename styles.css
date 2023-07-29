@@ -13,9 +13,14 @@
 
 body {
   margin: 0;
+  background-color: var(--dark-slate-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
+  background-color: white;
   box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
   max-width: min-content;
@@ -149,6 +154,11 @@ button:hover {
 
 .attribution {
   margin: 1rem;
+  color: #ccc;
+}
+
+.attribution a {
+  color: #efefef;
 }
 
 @media screen and (min-width: 900px) {
